@@ -53,29 +53,5 @@ public class VoiceCallActivity extends AppCompatActivity {
         }
     }
 
-  /*  private void timer(int timeInMillis) {
-        new CountDownTimer(timeInMillis, 1000) {
-            @Override
-            public void onTick(long leftTimeInMilliseconds) {
-                long seconds = leftTimeInMilliseconds / 1000;
-
-                minute = (seconds % 3600) / 60;
-                sec = (seconds % 60);
-
-                timer.setText(String.format("%02d:%02d",
-                        (seconds % 3600) / 60, (seconds % 60)));
-
-            }
-
-            @Override
-            public void onFinish() {
-                endCall();
-//                timer.setText("Time up!");
-                timer.setVisibility(View.VISIBLE);
-            }
-
-        }.start();
-    }
-*/
 
 
