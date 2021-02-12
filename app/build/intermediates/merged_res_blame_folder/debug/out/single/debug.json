@@ -1,0 +1,466 @@
+[
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_ic_group_add_24dp.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/ic_group_add_24dp.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_ic_keyboard_arrow_left_24dp.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/ic_keyboard_arrow_left_24dp.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_background_call.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/background_call.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_settings.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/settings.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_theft_attempt.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/theft_attempt.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/menu_drawermenu.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/menu/drawermenu.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_people.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/people.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_people_second.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/people_second.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_eve_teasing.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/eve_teasing.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_sent.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/sent.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_activity_navigation_alert.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/activity_navigation_alert.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_ic_pin_drop_24dp.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/ic_pin_drop_24dp.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_domesticviolence.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable-xxxhdpi/domesticviolence.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/raw_outgoingtone.mp3.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/raw/outgoingtone.mp3"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_one_plus.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-xxxhdpi/one_plus.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-mdpi_carevault_without_text.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-mdpi/carevault_without_text.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_d.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/d.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_volume_high.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/volume_high.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_app_bar_navigation_alert.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/app_bar_navigation_alert.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_help.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/help.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_draft.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/draft.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_circlebackgroundred.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/circlebackgroundred.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_phonebook.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/phonebook.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_side_nav_bar.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_toolbar1.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/toolbar1.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_domesticviolence1.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable-xxxhdpi/domesticviolence1.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_toolbar_complaint.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/toolbar_complaint.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_carevault.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-xxxhdpi/carevault.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_threat1.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable-xxxhdpi/threat1.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_background_login.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/background_login.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_threat.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable-xxxhdpi/threat.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_intro_without_logo.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable-xxxhdpi/intro_without_logo.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_attach.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/attach.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_tab_bars.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/tab_bars.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_theft.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable-xxxhdpi/theft.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_nav_header_navigation_alert.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/nav_header_navigation_alert.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_complaint.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/complaint.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_content_navigation_alert.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/content_navigation_alert.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_splash.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_ic_email_24dp.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/ic_email_24dp.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_threat.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/threat.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_help.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/help.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/menu_activity_navigation_alert_drawer.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/menu/activity_navigation_alert_drawer.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_one_plus.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/one_plus.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_end_call.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/end_call.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_circle_background.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/circle_background.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_mic.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/mic.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_ic_home_24dp.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/ic_home_24dp.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_support.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/support.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_carevault_splash.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/carevault_splash.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_speaker_toggle_bg.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/speaker_toggle_bg.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_corruption.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable-xxxhdpi/corruption.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_attachpic.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/attachpic.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_eveteasing.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable-xxxhdpi/eveteasing.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_navigation_complaint.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/navigation_complaint.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_aboutus.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/aboutus.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_background.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/background.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_ic_mode_edit_24dp.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/ic_mode_edit_24dp.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_got.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/got.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_button1_shape.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/button1_shape.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_recievedcall.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/recievedcall.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_backgroundgreen.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/backgroundgreen.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_alert.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/alert.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_b.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/b.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/raw_policesiren.mp3.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/raw/policesiren.mp3"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_backgroun_red.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/backgroun_red.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_audio_toggle.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/audio_toggle.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_frag_home.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/frag_home.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_intro_2.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable-xxxhdpi/intro_2.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_button_shape.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/button_shape.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_user.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/user.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_app_bar_navigation_complaint.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/app_bar_navigation_complaint.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_content_navigation_complaint.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/content_navigation_complaint.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_about_us.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/about_us.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_corruption.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/corruption.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_voice_layout.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/voice_layout.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_a.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/a.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_miccut.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/miccut.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_red_background.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/red_background.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_toolbar.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/toolbar.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_alertlogo.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/alertlogo.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_circlebackground.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/circlebackground.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_toolbar_home.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/toolbar_home.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_eveteasing1.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable-xxxhdpi/eveteasing1.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_domestic_violence.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/domestic_violence.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_alert2.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable-xxxhdpi/alert2.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_title.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/title.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_list_group.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/list_group.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_corruption1.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable-xxxhdpi/corruption1.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_tab_layout.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/tab_layout.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_alarm_clock.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/alarm_clock.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_mute_audio.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/mute_audio.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_audio_toggle_bg.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/audio_toggle_bg.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_list_item.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_speaker_toggle.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/speaker_toggle.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_c.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/c.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_theft1.jpg.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable-xxxhdpi/theft1.jpg"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/layout_sent_layout.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/layout/sent_layout.xml"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_voice.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/voice.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_inbox.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/inbox.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/drawable_oneplus.png.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/drawable/oneplus.png"
+    },
+    {
+        "merged": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/nmahabub/Desktop/SafeNaari/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

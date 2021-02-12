@@ -1,0 +1,171 @@
+ package com.example.SafeNaari;
+
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.Handler;
+import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
+import com.example.SafeNaari.R;
+
+import java.util.Timer;
+import java.util.TimerTask;
+
+ public class NavigationComplaint extends AppCompatActivity{
+    DrawerLayout mDrawerLayout;
+    NavigationView mNavigationView;
+
+
+     public int currentimageindex=0;
+
+     ImageView slidingimage;
+
+     private int[] IMAGE_IDS = {
+             R.drawable.domesticviolence1, R.drawable.corruption1, R.drawable.theft1,
+             R.drawable.threat1, R.drawable.eveteasing1
+     };
+
+
+     @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.navigation_complaint);
+
+
+
+         final Handler mHandler = new Handler();
+
+         final Runnable mUpdateResults = new Runnable() {
+             public void run() {
+
+                 AnimateandSlideShow();
+
+             }
+         };
+
+         int delay = 1000;
+
+         int period = 5000;
+
+         Timer timer = new Timer();
+
+         timer.scheduleAtFixedRate(new TimerTask() {
+
+             public void run() {
+
+                 mHandler.post(mUpdateResults);
+
+             }
+
+         }, delay, period);
+
+
+
+         /**
+          *Setup the DrawerLayout and NavigationView
+          */
+
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
+        mNavigationView = (NavigationView) findViewById(R.id.shitstuff) ;
+
+        /**
+         * Lets inflate the very first fragment
+         * Here , we are inflating the TabFragment as the first Fragment
+         */
+
+
+        mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(MenuItem menuItem) {
+                mDrawerLayout.closeDrawers();
+
+
+
+                if (menuItem.getItemId() == R.id.Home) {
+                    Intent intent=new Intent(NavigationComplaint.this,MainActivity.class);
+                    startActivity(intent);
+                }
+
+                if (menuItem.getItemId() == R.id.mail) {
+
+                    Intent intent=null, chooser=null;
+                    intent=new Intent(Intent.ACTION_SEND);
+                    intent.setData(Uri.parse("mailto:"));
+                    String[] to={"ishumehta99@gmail.com"};
+                    intent.putExtra(Intent.EXTRA_EMAIL,to);
+                    intent.setType("message/rfc822");
+                    chooser=Intent.createChooser(intent,"Send Email");
+                    startActivity(chooser);
+
+                }
+
+                if (menuItem.getItemId()== R.id.complaints){
+
+                    Intent i=new Intent(NavigationComplaint.this,TabBars.class);
+                    startActivity(i);
+
+                }
+                if (menuItem.getItemId()== R.id.Help){
+
+                    Intent i=new Intent(NavigationComplaint.this,Help.class);
+                    startActivity(i);
+
+                }
+                if (menuItem.getItemId()== R.id.AboutUs){
+
+                    Intent i=new Intent(NavigationComplaint.this,AboutUs.class);
+                    startActivity(i);
+
+                }
+
+
+                return false;
+            }
+
+        });
+
+        /**
+         * Setup Drawer Toggle of the Toolbar
+         */
+
+        android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
+        ActionBarDrawerToggle mDrawerToggle = new ActionBarDrawerToggle(this,mDrawerLayout, toolbar,R.string.app_name,
+                R.string.app_name);
+
+        mDrawerLayout.setDrawerListener(mDrawerToggle);
+
+        mDrawerToggle.syncState();
+
+    }
+
+
+
+     /**
+      * Helper method to start the animation on the splash screen
+      */
+     private void AnimateandSlideShow() {
+
+
+         slidingimage = (ImageView)findViewById(R.id.ImageView3_Left);
+         slidingimage.setImageResource(IMAGE_IDS[currentimageindex%IMAGE_IDS.length]);
+
+         currentimageindex++;
+
+         Animation rotateimage = AnimationUtils.loadAnimation(this, android.R.anim.fade_in);
+
+
+         slidingimage.startAnimation(rotateimage);
+
+
+
+     }
+
+
+
+ }

@@ -1,0 +1,332 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
+MERGED from [com.android.support:design:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/471c35a088db63361b7fcdb8e4a5ff53/transformed/design-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/cec5d6be03e1623fe2e60ad3aabd1fa4/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/0264218bc95a05c8341075d05e62a72f/transformed/constraint-layout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/db4ada422bda07baca1dcfcff65d4711/transformed/play-services-location-11.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/5c1af5e7b333d8effbba5794c51d5165/transformed/play-services-tasks-11.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/2e425a0f11c4cde38db78912129592fc/transformed/support-v4-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/7ebf1e2514665f08eda0c5f8d8b0e57a/transformed/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/aa8a31a03064c770d604e83ed633ff42/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/4c0e8ad028b5773a19bff4eeca42810c/transformed/recyclerview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/281c3df159328e1a68e66ee9774b191c/transformed/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/7ed27c75a7f937da2357cafa171983b8/transformed/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/fc0e6aec22d9cdc4651f6d73625f0cde/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/07b6167ccd757288088a33efb7cb9b47/transformed/transition-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/5fd2bff5aaf37994f28af14edc5a94ba/transformed/support-media-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/8e66fc98c1bdb40f46fc7da6bf595dd5/transformed/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/bf1480b5d366f075a9d16be9a096a386/transformed/play-services-location-license-11.8.0/AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/dc9dbead4befbc33e03049c0514c9629/transformed/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/ec5d7042ac7aa69590ef02eaa7fd1fad/transformed/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/00adcb9e911f3b7816d1aedffaa8b3c9/transformed/play-services-base-license-11.8.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/ccdc82039bad76bb3544a21ddf3ef76e/transformed/play-services-basement-license-11.8.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/7da39268de81cb096afe1d95ab5e5a4a/transformed/play-services-tasks-license-11.8.0/AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/4f1d718b6974a11b3f3524a3542022fa/transformed/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/453125fba0665b51aad86306b8bea045/transformed/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
+	package
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
+		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
+		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:6:5-72
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:6:22-69
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:8:22-62
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:12:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:14:22-63
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:15:5-69
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:15:22-66
+uses-feature#android.hardware.microphone
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:18:9-51
+uses-feature#android.hardware.telephony
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:21:9-50
+uses-feature#android.hardware.camera
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:24:5-60
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:24:19-57
+uses-feature#android.hardware.location
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:25:5-27:35
+	android:required
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:27:9-32
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:26:9-49
+uses-feature#android.hardware.location.gps
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:29:9-53
+application
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:32:5-108:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/0264218bc95a05c8341075d05e62a72f/transformed/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/0264218bc95a05c8341075d05e62a72f/transformed/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/db4ada422bda07baca1dcfcff65d4711/transformed/play-services-location-11.8.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/db4ada422bda07baca1dcfcff65d4711/transformed/play-services-location-11.8.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/5c1af5e7b333d8effbba5794c51d5165/transformed/play-services-tasks-11.8.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/5c1af5e7b333d8effbba5794c51d5165/transformed/play-services-tasks-11.8.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/bf1480b5d366f075a9d16be9a096a386/transformed/play-services-location-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/bf1480b5d366f075a9d16be9a096a386/transformed/play-services-location-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/00adcb9e911f3b7816d1aedffaa8b3c9/transformed/play-services-base-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/00adcb9e911f3b7816d1aedffaa8b3c9/transformed/play-services-base-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/ccdc82039bad76bb3544a21ddf3ef76e/transformed/play-services-basement-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/ccdc82039bad76bb3544a21ddf3ef76e/transformed/play-services-basement-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/7da39268de81cb096afe1d95ab5e5a4a/transformed/play-services-tasks-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/7da39268de81cb096afe1d95ab5e5a4a/transformed/play-services-tasks-license-11.8.0/AndroidManifest.xml:5:5-20
+	android:label
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:35:9-40
+	android:icon
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:34:9-40
+	android:allowBackup
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:33:9-35
+	android:theme
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:36:9-40
+activity#com.example.mayank.oneplussafety.Splash
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:37:9-45:20
+	android:screenOrientation
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:38:13-34
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:43:27-74
+activity#com.example.mayank.oneplussafety.MainActivity
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:46:9-48:52
+	android:screenOrientation
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:48:13-49
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:47:13-40
+activity#com.example.mayank.oneplussafety.PeopleSecond
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:49:9-51:52
+	android:screenOrientation
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:51:13-49
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:50:13-40
+receiver#com.example.mayank.oneplussafety.VolumeChangeReceiver
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:53:9-57:20
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:53:19-54
+intent-filter#action:name:android.media.VOLUME_CHANGED_ACTION
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:54:13-56:29
+action#android.media.VOLUME_CHANGED_ACTION
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:55:17-78
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:55:25-75
+activity#com.example.mayank.oneplussafety.People
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:59:9-61:52
+	android:screenOrientation
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:61:13-49
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:60:13-34
+activity#com.example.mayank.oneplussafety.Help
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:62:9-64:61
+	android:screenOrientation
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:64:13-49
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:63:13-32
+activity#com.example.mayank.oneplussafety.NavigationAlert
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:65:9-69:59
+	android:screenOrientation
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:68:13-49
+	android:label
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:67:13-68
+	android:theme
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:69:13-56
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:66:13-44
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:79:9-81:55
+	android:value
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:81:13-52
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:80:13-58
+activity#com.example.mayank.oneplussafety.NavigationComplaint
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:83:9-85:61
+	android:screenOrientation
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:85:13-49
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:84:13-47
+activity#com.example.mayank.oneplussafety.TabBars
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:86:9-88:61
+	android:screenOrientation
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:87:13-35
+activity#com.example.mayank.oneplussafety.AboutUs
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:89:9-91:61
+	android:screenOrientation
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:91:13-49
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:90:13-35
+activity#com.example.mayank.oneplussafety.RecievedCall
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:92:9-94:61
+	android:screenOrientation
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:94:13-49
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:93:13-40
+activity#com.example.mayank.oneplussafety.VoiceCallActivity
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:95:9-97:61
+	android:screenOrientation
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:97:13-49
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:96:13-45
+receiver#com.example.mayank.oneplussafety.MyBroadcastReceiver
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:100:9-65
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:100:19-53
+receiver#com.example.mayank.oneplussafety.CallBReciever
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:101:9-106:20
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:101:19-47
+intent-filter#action:name:call
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:103:13-105:29
+action#call
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:104:17-54
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:104:25-44
+uses-sdk
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/471c35a088db63361b7fcdb8e4a5ff53/transformed/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/471c35a088db63361b7fcdb8e4a5ff53/transformed/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/cec5d6be03e1623fe2e60ad3aabd1fa4/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/cec5d6be03e1623fe2e60ad3aabd1fa4/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/0264218bc95a05c8341075d05e62a72f/transformed/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/0264218bc95a05c8341075d05e62a72f/transformed/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/db4ada422bda07baca1dcfcff65d4711/transformed/play-services-location-11.8.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/db4ada422bda07baca1dcfcff65d4711/transformed/play-services-location-11.8.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/5c1af5e7b333d8effbba5794c51d5165/transformed/play-services-tasks-11.8.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/5c1af5e7b333d8effbba5794c51d5165/transformed/play-services-tasks-11.8.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/2e425a0f11c4cde38db78912129592fc/transformed/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/2e425a0f11c4cde38db78912129592fc/transformed/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/7ebf1e2514665f08eda0c5f8d8b0e57a/transformed/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/7ebf1e2514665f08eda0c5f8d8b0e57a/transformed/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/aa8a31a03064c770d604e83ed633ff42/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/aa8a31a03064c770d604e83ed633ff42/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/4c0e8ad028b5773a19bff4eeca42810c/transformed/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/4c0e8ad028b5773a19bff4eeca42810c/transformed/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/281c3df159328e1a68e66ee9774b191c/transformed/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/281c3df159328e1a68e66ee9774b191c/transformed/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/7ed27c75a7f937da2357cafa171983b8/transformed/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/7ed27c75a7f937da2357cafa171983b8/transformed/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/fc0e6aec22d9cdc4651f6d73625f0cde/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/fc0e6aec22d9cdc4651f6d73625f0cde/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/07b6167ccd757288088a33efb7cb9b47/transformed/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/07b6167ccd757288088a33efb7cb9b47/transformed/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/5fd2bff5aaf37994f28af14edc5a94ba/transformed/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/5fd2bff5aaf37994f28af14edc5a94ba/transformed/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/8e66fc98c1bdb40f46fc7da6bf595dd5/transformed/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/8e66fc98c1bdb40f46fc7da6bf595dd5/transformed/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/bf1480b5d366f075a9d16be9a096a386/transformed/play-services-location-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/bf1480b5d366f075a9d16be9a096a386/transformed/play-services-location-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/dc9dbead4befbc33e03049c0514c9629/transformed/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/dc9dbead4befbc33e03049c0514c9629/transformed/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/ec5d7042ac7aa69590ef02eaa7fd1fad/transformed/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/ec5d7042ac7aa69590ef02eaa7fd1fad/transformed/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/00adcb9e911f3b7816d1aedffaa8b3c9/transformed/play-services-base-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/00adcb9e911f3b7816d1aedffaa8b3c9/transformed/play-services-base-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/ccdc82039bad76bb3544a21ddf3ef76e/transformed/play-services-basement-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/ccdc82039bad76bb3544a21ddf3ef76e/transformed/play-services-basement-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/7da39268de81cb096afe1d95ab5e5a4a/transformed/play-services-tasks-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/7da39268de81cb096afe1d95ab5e5a4a/transformed/play-services-tasks-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/4f1d718b6974a11b3f3524a3542022fa/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/4f1d718b6974a11b3f3524a3542022fa/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/453125fba0665b51aad86306b8bea045/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/453125fba0665b51aad86306b8bea045/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:24:13-58
