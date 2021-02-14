@@ -4,7 +4,26 @@
             "outputFile": "/Users/nmahabub/Desktop/SafeNaari/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/nmahabub/.gradle/caches/transforms-3/cec5d6be03e1623fe2e60ad3aabd1fa4/transformed/appcompat-v7-27.1.1/res/values-v23/values-v23.xml",
+                    "source": "/Users/nmahabub/.gradle/caches/transforms-3/32e35b90ffb21c87b1a741f8744f03c5/transformed/material-1.3.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,320",
+                        "endLines": "5,9",
+                        "endColumns": "10,10",
+                        "endOffsets": "315,588"
+                    },
+                    "to": {
+                        "startLines": "49,53",
+                        "startColumns": "4,4",
+                        "startOffsets": "3369,3634",
+                        "endLines": "52,56",
+                        "endColumns": "10,10",
+                        "endOffsets": "3629,3902"
+                    }
+                },
+                {
+                    "source": "/Users/nmahabub/.gradle/caches/transforms-3/98373bac66190a8416d7aa87b8148dc1/transformed/appcompat-v7-27.1.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -12,6 +31,52 @@
                         "endLines": "2,3,4,5,18,31,32,33,34,35,36",
                         "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
                         "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,19,33,34,39,40,41",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2198,2325,2654,2769,2876",
+                        "endLines": "2,3,4,5,18,31,33,34,39,40,41",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2320,2425,2764,2871,2984"
+                    }
+                },
+                {
+                    "source": "/Users/nmahabub/.gradle/caches/transforms-3/386e0eef9ab7655a89ccdade5a546b59/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "46",
+                        "startColumns": "4",
+                        "startOffsets": "3219",
+                        "endLines": "48",
+                        "endColumns": "12",
+                        "endOffsets": "3364"
+                    }
+                },
+                {
+                    "source": "/Users/nmahabub/.gradle/caches/transforms-3/69d01c464685aa9ab1456b88fbf1f8fd/transformed/appcompat-1.2.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "34,39,46",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "2267,2735,3294",
+                        "endLines": "34,42,49",
+                        "endColumns": "118,12,12",
+                        "endOffsets": "2381,2954,3519"
+                    },
+                    "to": {
+                        "startLines": "32,35,42",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "2079,2430,2989",
+                        "endLines": "32,38,45",
+                        "endColumns": "118,12,12",
+                        "endOffsets": "2193,2649,3214"
                     }
                 }
             ]

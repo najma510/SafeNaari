@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.example.SafeNaari.NavigationAlert;
+import com.example.SafeNaari.R;
+
 
 public class AboutUs extends AppCompatActivity {
     ImageButton backButton;
@@ -33,7 +36,7 @@ public class AboutUs extends AppCompatActivity {
 
     public void call(View v) {
 
-        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "8329620181"));
+        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "07340624186"));
         startActivity(intent);
     }
 

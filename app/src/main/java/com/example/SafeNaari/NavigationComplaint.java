@@ -23,7 +23,6 @@ import java.util.TimerTask;
 
 
      public int currentimageindex=0;
-
      ImageView slidingimage;
 
      private int[] IMAGE_IDS = {
@@ -41,6 +40,7 @@ import java.util.TimerTask;
 
          final Handler mHandler = new Handler();
 
+         // Create runnable for posting
          final Runnable mUpdateResults = new Runnable() {
              public void run() {
 
@@ -49,9 +49,9 @@ import java.util.TimerTask;
              }
          };
 
-         int delay = 1000;
+         int delay = 1000; // delay for 1 sec.
 
-         int period = 5000;
+         int period = 5000; // repeat every 4 sec.
 
          Timer timer = new Timer();
 
@@ -80,6 +80,7 @@ import java.util.TimerTask;
          */
 
 
+
         mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
@@ -88,7 +89,7 @@ import java.util.TimerTask;
 
 
                 if (menuItem.getItemId() == R.id.Home) {
-                    Intent intent=new Intent(NavigationComplaint.this,MainActivity.class);
+                    Intent intent=new Intent(NavigationComplaint.this,FirstPage.class);
                     startActivity(intent);
                 }
 

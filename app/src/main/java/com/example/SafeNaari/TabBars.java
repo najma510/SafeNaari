@@ -5,7 +5,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.example.SafeNaari.R;
+import com.example.SafeNaari.R;
+import com.example.SafeNaari.TabFragment;
 
 public class TabBars extends AppCompatActivity {
 

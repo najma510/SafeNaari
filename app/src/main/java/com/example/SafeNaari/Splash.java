@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.example.SafeNaari.R;
+import com.example.SafeNaari.R;
 
 
 public class Splash extends Activity {
@@ -23,7 +23,7 @@ public class Splash extends Activity {
 
                 }
 
-                startActivity( new Intent(Splash.this, MainActivity.class));
+                startActivity( new Intent(Splash.this, FirstPage.class));
             }
         }.start();
 

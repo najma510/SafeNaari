@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mayank.oneplussafety"
+    package="com.example.SafeNaari"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -35,13 +35,17 @@
 
     <application
         android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/one_plus"
-        android:label="One Plus Safety"
-        android:testOnly="true"
+        android:label="Safe Naari"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.SafeNaari.FirstPage" />
+        <activity android:name="com.example.SafeNaari.Register" />
+        <activity android:name="com.example.SafeNaari.MainActivity" />
+        <activity android:name="com.example.SafeNaari.vwrg" />
         <activity
-            android:name="com.example.mayank.oneplussafety.Splash"
+            android:name="com.example.SafeNaari.Splash"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -50,30 +54,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.mayank.oneplussafety.MainActivity"
+            android:name="com.example.mayank.com.example.SafeNaari.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.mayank.oneplussafety.PeopleSecond"
+            android:name="com.example.mayank.com.example.SafeNaari.PeopleSecond"
             android:screenOrientation="portrait" />
 
-        <receiver android:name="com.example.mayank.oneplussafety.VolumeChangeReceiver" >
+        <receiver android:name="com.example.mayank.com.example.SafeNaari.VolumeChangeReceiver" >
             <intent-filter>
                 <action android:name="android.media.VOLUME_CHANGED_ACTION" />
             </intent-filter>
         </receiver>
 
         <activity
-            android:name="com.example.mayank.oneplussafety.People"
+            android:name="com.example.mayank.com.example.SafeNaari.People"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.mayank.oneplussafety.Help"
+            android:name="com.example.mayank.com.example.SafeNaari.Help"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.mayank.oneplussafety.NavigationAlert"
+            android:name="com.example.mayank.com.example.SafeNaari.NavigationAlert"
             android:label="@string/title_activity_navigation_alert"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -87,27 +90,101 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="com.example.mayank.oneplussafety.NavigationComplaint"
+            android:name="com.example.mayank.com.example.SafeNaari.NavigationComplaint"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.mayank.oneplussafety.TabBars"
+            android:name="com.example.mayank.com.example.SafeNaari.TabBars"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.mayank.oneplussafety.AboutUs"
+            android:name="com.example.mayank.com.example.SafeNaari.AboutUs"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.mayank.oneplussafety.RecievedCall"
+            android:name="com.example.mayank.com.example.SafeNaari.RecievedCall"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.mayank.oneplussafety.VoiceCallActivity"
+            android:name="com.example.mayank.com.example.SafeNaari.VoiceCallActivity"
             android:screenOrientation="portrait" />
 
-        <receiver android:name="com.example.mayank.oneplussafety.MyBroadcastReceiver" />
-        <receiver android:name="com.example.mayank.oneplussafety.CallBReciever" >
+        <receiver android:name="com.example.mayank.com.example.SafeNaari.MyBroadcastReceiver" />
+        <receiver android:name="com.example.mayank.com.example.SafeNaari.CallBReciever" >
             <intent-filter>
                 <action android:name="call" />
             </intent-filter>
         </receiver>
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <!--
+                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+                clients to use it as well, by defining this registrar in their own core/common library.
+            -->
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="genericidp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="recaptcha" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.SafeNaari.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

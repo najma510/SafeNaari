@@ -1,311 +1,463 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
-INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
-INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
-INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
-MERGED from [com.android.support:design:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/471c35a088db63361b7fcdb8e4a5ff53/transformed/design-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/cec5d6be03e1623fe2e60ad3aabd1fa4/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/0264218bc95a05c8341075d05e62a72f/transformed/constraint-layout-1.1.3/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/db4ada422bda07baca1dcfcff65d4711/transformed/play-services-location-11.8.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/5c1af5e7b333d8effbba5794c51d5165/transformed/play-services-tasks-11.8.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/2e425a0f11c4cde38db78912129592fc/transformed/support-v4-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/7ebf1e2514665f08eda0c5f8d8b0e57a/transformed/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/aa8a31a03064c770d604e83ed633ff42/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/4c0e8ad028b5773a19bff4eeca42810c/transformed/recyclerview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/281c3df159328e1a68e66ee9774b191c/transformed/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/7ed27c75a7f937da2357cafa171983b8/transformed/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/fc0e6aec22d9cdc4651f6d73625f0cde/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/07b6167ccd757288088a33efb7cb9b47/transformed/transition-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/5fd2bff5aaf37994f28af14edc5a94ba/transformed/support-media-compat-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/8e66fc98c1bdb40f46fc7da6bf595dd5/transformed/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/bf1480b5d366f075a9d16be9a096a386/transformed/play-services-location-license-11.8.0/AndroidManifest.xml:2:1-6:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/dc9dbead4befbc33e03049c0514c9629/transformed/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/ec5d7042ac7aa69590ef02eaa7fd1fad/transformed/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/00adcb9e911f3b7816d1aedffaa8b3c9/transformed/play-services-base-license-11.8.0/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/ccdc82039bad76bb3544a21ddf3ef76e/transformed/play-services-basement-license-11.8.0/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/7da39268de81cb096afe1d95ab5e5a4a/transformed/play-services-tasks-license-11.8.0/AndroidManifest.xml:2:1-6:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/4f1d718b6974a11b3f3524a3542022fa/transformed/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/453125fba0665b51aad86306b8bea045/transformed/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
-INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
-INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-108:12
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-108:12
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-108:12
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-108:12
+MERGED from [com.android.support:design:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/a9ecd8064b6d1706a88ab26035fce108/transformed/design-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/98373bac66190a8416d7aa87b8148dc1/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/aea90e587cc1951ba83d0f0de5a477bf/transformed/constraint-layout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:17:1-83:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/nmahabub/.gradle/caches/transforms-3/32e35b90ffb21c87b1a741f8744f03c5/transformed/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/nmahabub/.gradle/caches/transforms-3/863bc2c23c752976550cfca8bfa28e3a/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nmahabub/.gradle/caches/transforms-3/69d01c464685aa9ab1456b88fbf1f8fd/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fec8637653e897625bbd59deda1dcc37/transformed/play-services-location-11.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/f2e47be107f297702b3dcefb553ab87c/transformed/support-v4-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/9e842fd4b9afc7699697c1c74f359056/transformed/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/f90a4658def8672b1cc265d0e3dca43e/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/e09ecee9ec1fdb929d0651b1cd7e6ede/transformed/recyclerview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/a71512bf028b850e66c1a5312e7c77fa/transformed/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/d1bb72988b391effbe6dadf56be23b6d/transformed/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/e9f8e6d543f1b861470979489f8f2c39/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/b5adeee6e17a4086257a8916045e4c79/transformed/transition-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/9cab3b3a9ac9a9aaf8f719136e09547a/transformed/support-media-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/8a89397061a637f23bebe90ba1eceb67/transformed/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/nmahabub/.gradle/caches/transforms-3/17e89b3bc834f9283da341462d57e732/transformed/firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:15:1-49:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/nmahabub/.gradle/caches/transforms-3/86e24118f2c0dc6fe27431f44f604589/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/467661c06907fed12871ca0de035e335/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/69e4b9d1c47ead8af498bcc5493683db/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/6d3c9f73d9c328f4fd9e4b20f1b43c7c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /Users/nmahabub/.gradle/caches/transforms-3/74e3285d5da5a0b74c70ce45c50f85a4/transformed/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/nmahabub/.gradle/caches/transforms-3/5bf8c9f1f5f33f77bacf50fa4b1cd9e1/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/nmahabub/.gradle/caches/transforms-3/b76b0e9818fd5dbed6005d283f6b0769/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/d0987e2753d6c8d20e26eeff4a14908f/transformed/play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/96c05e2dfeff5974223e47821ac320f6/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/nmahabub/.gradle/caches/transforms-3/ba774c66f7967c83c5118459556c2b6f/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/bcd2a7d09ec31d8a39f38b57f76b37c0/transformed/play-services-basement-17.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/06b565578f5819353d43894967ef85e6/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/c8a6dcb62ac419f81f52ad63a7aa4508/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nmahabub/.gradle/caches/transforms-3/2b07cbaaaed0e8c27ae427e70e7ccc1c/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/c469d9a0d137700d0470b6907cb6c359/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/386e0eef9ab7655a89ccdade5a546b59/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/2f36349a6e5086c20907cebb58e05dd7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/nmahabub/.gradle/caches/transforms-3/6bc396282adc464c4626541df2072224/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/fb21169efdf22c9c6a0bbcb9438ad000/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/255e4a5268d84a80a95daea581384208/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/11f1ead1197277fada5ce9bf4d3c6589/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/0f4f331365f84b84e484ea2bfc64553d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/7cad75e461b5e87f874f274d98b89ad7/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/94e17d3be28472c7ec6561c1468f2a0b/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/0894323570e4e26c1c6f5ddf25f0ccb4/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] /Users/nmahabub/.gradle/caches/transforms-3/a20965d6667ab312c194c141c9f4a6c1/transformed/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/f0e94994639b6dbfb53339043fa38a62/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/nmahabub/.gradle/caches/transforms-3/cae50926a7a69575550b49ee40ea6296/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/nmahabub/.gradle/caches/transforms-3/3cc73921346e5ddea0bc3b218a9e5c0b/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/ccb817b63bcff85c69998ea87b5f0b9a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/5d19a03bd7b5c4cb78f550ca0e5a75d8/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/aeb5d6dfc2554f814489e72231517c54/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/540ce26f8f9c9058402f81155af13a22/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nmahabub/.gradle/caches/transforms-3/eea43794a4c7e128144169e0b0b566f0/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nmahabub/.gradle/caches/transforms-3/79e79e1043656e1df328df3e012ced83/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nmahabub/.gradle/caches/transforms-3/38281e01eebe467075f665f15466236e/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/cd4716f70cf3ded81c3fc4eb973c6cf6/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/dc73b95143c13022237b558419043dfc/transformed/jetified-play-services-location-license-11.8.0/AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/e69d249976b5a7a5cb6c3bc5b1553939/transformed/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/587dcd31c8e334319d89dab534b822b6/transformed/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/5d02aafc4c07c5889e93428dfd5d7ef2/transformed/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/5338c6c8c1491f6393f7077dcb5f255c/transformed/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-108:12
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-108:12
+INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-108:12
 	package
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:3:5-47
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-108:12
 		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-110:12
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:1-108:12
 		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:6:5-72
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:5:5-72
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:6:22-69
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:5:22-69
 uses-permission#android.permission.SEND_SMS
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:7:5-67
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.CAMERA
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:8:5-65
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:8:22-62
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:7:22-62
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:9:5-79
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:9:22-76
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:8:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:10:5-81
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:10:22-78
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:9:22-78
 uses-permission#android.permission.INTERNET
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:11:5-67
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:11:22-64
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:10:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:12:5-76
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:11:5-76
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:12:22-73
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:11:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:13:5-79
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:13:22-76
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:12:22-76
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:14:5-66
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:13:5-66
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:14:22-63
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:13:22-63
 uses-permission#android.permission.CALL_PHONE
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:15:5-69
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:14:5-69
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:15:22-66
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:14:22-66
 uses-feature#android.hardware.microphone
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:17:5-19:36
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:16:5-18:36
 	android:required
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:19:9-33
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:18:9-33
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:18:9-51
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:17:9-51
 uses-feature#android.hardware.telephony
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:20:5-22:36
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:19:5-21:36
 	android:required
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:22:9-33
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:21:9-33
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:21:9-50
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:20:9-50
 uses-feature#android.hardware.camera
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:24:5-60
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:22:5-60
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:24:19-57
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:22:19-57
 uses-feature#android.hardware.location
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:25:5-27:35
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:23:5-25:35
 	android:required
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:27:9-32
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:25:9-32
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:26:9-49
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:24:9-49
 uses-feature#android.hardware.location.gps
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:28:5-30:36
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:26:5-28:36
 	android:required
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:30:9-33
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:28:9-33
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:29:9-53
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:27:9-53
 application
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:32:5-108:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/0264218bc95a05c8341075d05e62a72f/transformed/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/0264218bc95a05c8341075d05e62a72f/transformed/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/db4ada422bda07baca1dcfcff65d4711/transformed/play-services-location-11.8.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/db4ada422bda07baca1dcfcff65d4711/transformed/play-services-location-11.8.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/5c1af5e7b333d8effbba5794c51d5165/transformed/play-services-tasks-11.8.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/5c1af5e7b333d8effbba5794c51d5165/transformed/play-services-tasks-11.8.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/bf1480b5d366f075a9d16be9a096a386/transformed/play-services-location-license-11.8.0/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/bf1480b5d366f075a9d16be9a096a386/transformed/play-services-location-license-11.8.0/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/00adcb9e911f3b7816d1aedffaa8b3c9/transformed/play-services-base-license-11.8.0/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/00adcb9e911f3b7816d1aedffaa8b3c9/transformed/play-services-base-license-11.8.0/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/ccdc82039bad76bb3544a21ddf3ef76e/transformed/play-services-basement-license-11.8.0/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/ccdc82039bad76bb3544a21ddf3ef76e/transformed/play-services-basement-license-11.8.0/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/7da39268de81cb096afe1d95ab5e5a4a/transformed/play-services-tasks-license-11.8.0/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/7da39268de81cb096afe1d95ab5e5a4a/transformed/play-services-tasks-license-11.8.0/AndroidManifest.xml:5:5-20
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:30:5-106:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/aea90e587cc1951ba83d0f0de5a477bf/transformed/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/aea90e587cc1951ba83d0f0de5a477bf/transformed/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/nmahabub/.gradle/caches/transforms-3/32e35b90ffb21c87b1a741f8744f03c5/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/nmahabub/.gradle/caches/transforms-3/32e35b90ffb21c87b1a741f8744f03c5/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/nmahabub/.gradle/caches/transforms-3/863bc2c23c752976550cfca8bfa28e3a/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/nmahabub/.gradle/caches/transforms-3/863bc2c23c752976550cfca8bfa28e3a/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fec8637653e897625bbd59deda1dcc37/transformed/play-services-location-11.8.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fec8637653e897625bbd59deda1dcc37/transformed/play-services-location-11.8.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/nmahabub/.gradle/caches/transforms-3/17e89b3bc834f9283da341462d57e732/transformed/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/nmahabub/.gradle/caches/transforms-3/17e89b3bc834f9283da341462d57e732/transformed/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:25:5-47:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:25:5-47:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/nmahabub/.gradle/caches/transforms-3/b76b0e9818fd5dbed6005d283f6b0769/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/nmahabub/.gradle/caches/transforms-3/b76b0e9818fd5dbed6005d283f6b0769/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/d0987e2753d6c8d20e26eeff4a14908f/transformed/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/d0987e2753d6c8d20e26eeff4a14908f/transformed/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/nmahabub/.gradle/caches/transforms-3/ba774c66f7967c83c5118459556c2b6f/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/nmahabub/.gradle/caches/transforms-3/ba774c66f7967c83c5118459556c2b6f/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/bcd2a7d09ec31d8a39f38b57f76b37c0/transformed/play-services-basement-17.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/bcd2a7d09ec31d8a39f38b57f76b37c0/transformed/play-services-basement-17.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.1] /Users/nmahabub/.gradle/caches/transforms-3/a20965d6667ab312c194c141c9f4a6c1/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/nmahabub/.gradle/caches/transforms-3/a20965d6667ab312c194c141c9f4a6c1/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/f0e94994639b6dbfb53339043fa38a62/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/f0e94994639b6dbfb53339043fa38a62/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/dc73b95143c13022237b558419043dfc/transformed/jetified-play-services-location-license-11.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/dc73b95143c13022237b558419043dfc/transformed/jetified-play-services-location-license-11.8.0/AndroidManifest.xml:5:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] /Users/nmahabub/.gradle/caches/transforms-3/a20965d6667ab312c194c141c9f4a6c1/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:35:9-40
-	android:icon
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:34:9-40
-	android:allowBackup
 		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:33:9-35
+	android:icon
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:32:9-40
+	android:allowBackup
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:31:9-35
 	android:theme
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:36:9-40
-activity#com.example.mayank.oneplussafety.Splash
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:37:9-45:20
-	android:screenOrientation
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:39:13-49
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:34:9-40
+activity#com.example.SafeNaari.FirstPage
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:35:9-56
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:38:13-34
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:35:19-44
+activity#com.example.SafeNaari.Register
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:36:9-46
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:36:19-43
+activity#com.example.SafeNaari.MainActivity
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:37:9-50
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:37:19-47
+activity#com.example.SafeNaari.vwrg
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:38:9-42
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:38:19-39
+activity#com.example.SafeNaari.Splash
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:39:9-47:20
+	android:screenOrientation
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:40:13-35
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:40:13-44:29
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:42:13-46:29
 action#android.intent.action.MAIN
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:41:17-69
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:43:17-69
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:41:25-66
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:43:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:43:17-77
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:45:17-77
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:43:27-74
-activity#com.example.mayank.oneplussafety.MainActivity
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:46:9-48:52
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:45:27-74
+activity#com.example.mayank.com.example.SafeNaari.MainActivity
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:48:9-50:52
 	android:screenOrientation
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:48:13-49
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:50:13-49
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:47:13-40
-activity#com.example.mayank.oneplussafety.PeopleSecond
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:49:9-51:52
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:49:13-81
+activity#com.example.mayank.com.example.SafeNaari.PeopleSecond
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:51:9-53:52
 	android:screenOrientation
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:51:13-49
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:53:13-49
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:50:13-40
-receiver#com.example.mayank.oneplussafety.VolumeChangeReceiver
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:53:9-57:20
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:52:13-81
+receiver#com.example.mayank.com.example.SafeNaari.VolumeChangeReceiver
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:55:9-59:20
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:53:19-54
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:55:19-95
 intent-filter#action:name:android.media.VOLUME_CHANGED_ACTION
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:54:13-56:29
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:56:13-58:29
 action#android.media.VOLUME_CHANGED_ACTION
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:55:17-78
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:57:17-78
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:55:25-75
-activity#com.example.mayank.oneplussafety.People
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:59:9-61:52
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:57:25-75
+activity#com.example.mayank.com.example.SafeNaari.People
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:61:9-63:52
 	android:screenOrientation
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:61:13-49
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:63:13-49
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:60:13-34
-activity#com.example.mayank.oneplussafety.Help
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:62:9-64:61
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:62:13-75
+activity#com.example.mayank.com.example.SafeNaari.Help
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:64:9-66:52
 	android:screenOrientation
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:64:13-49
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:66:13-49
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:63:13-32
-activity#com.example.mayank.oneplussafety.NavigationAlert
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:65:9-69:59
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:65:13-73
+activity#com.example.mayank.com.example.SafeNaari.NavigationAlert
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:67:9-71:59
 	android:screenOrientation
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:68:13-49
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:70:13-49
 	android:label
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:67:13-68
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:69:13-68
 	android:theme
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:69:13-56
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:71:13-56
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:66:13-44
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:68:13-84
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:79:9-81:55
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:80:9-82:55
 	android:value
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:81:13-52
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:82:13-52
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:80:13-58
-activity#com.example.mayank.oneplussafety.NavigationComplaint
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:83:9-85:61
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:81:13-58
+activity#com.example.mayank.com.example.SafeNaari.NavigationComplaint
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:84:9-86:52
 	android:screenOrientation
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:85:13-49
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:86:13-49
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:84:13-47
-activity#com.example.mayank.oneplussafety.TabBars
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:86:9-88:61
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:85:13-88
+activity#com.example.mayank.com.example.SafeNaari.TabBars
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:87:9-89:52
 	android:screenOrientation
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:88:13-49
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:89:13-49
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:87:13-35
-activity#com.example.mayank.oneplussafety.AboutUs
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:89:9-91:61
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:88:13-76
+activity#com.example.mayank.com.example.SafeNaari.AboutUs
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:90:9-92:52
 	android:screenOrientation
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:91:13-49
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:92:13-49
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:90:13-35
-activity#com.example.mayank.oneplussafety.RecievedCall
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:92:9-94:61
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:91:13-76
+activity#com.example.mayank.com.example.SafeNaari.RecievedCall
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:93:9-95:52
 	android:screenOrientation
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:94:13-49
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:95:13-49
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:93:13-40
-activity#com.example.mayank.oneplussafety.VoiceCallActivity
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:95:9-97:61
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:94:13-81
+activity#com.example.mayank.com.example.SafeNaari.VoiceCallActivity
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:96:9-98:52
 	android:screenOrientation
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:97:13-49
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:98:13-49
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:96:13-45
-receiver#com.example.mayank.oneplussafety.MyBroadcastReceiver
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:100:9-65
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:97:13-86
+receiver#com.example.mayank.com.example.SafeNaari.MyBroadcastReceiver
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:100:9-97
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:100:19-53
-receiver#com.example.mayank.oneplussafety.CallBReciever
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:101:9-106:20
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:100:19-94
+receiver#com.example.mayank.com.example.SafeNaari.CallBReciever
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:101:9-105:20
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:101:19-47
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:101:19-88
 intent-filter#action:name:call
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:103:13-105:29
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:102:13-104:29
 action#call
-ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:104:17-54
+ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:103:17-47
 	android:name
-		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:104:25-44
+		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml:103:25-44
 uses-sdk
 INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
 INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/471c35a088db63361b7fcdb8e4a5ff53/transformed/design-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/471c35a088db63361b7fcdb8e4a5ff53/transformed/design-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/cec5d6be03e1623fe2e60ad3aabd1fa4/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/cec5d6be03e1623fe2e60ad3aabd1fa4/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/0264218bc95a05c8341075d05e62a72f/transformed/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/0264218bc95a05c8341075d05e62a72f/transformed/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/db4ada422bda07baca1dcfcff65d4711/transformed/play-services-location-11.8.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/db4ada422bda07baca1dcfcff65d4711/transformed/play-services-location-11.8.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/5c1af5e7b333d8effbba5794c51d5165/transformed/play-services-tasks-11.8.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/5c1af5e7b333d8effbba5794c51d5165/transformed/play-services-tasks-11.8.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/2e425a0f11c4cde38db78912129592fc/transformed/support-v4-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/2e425a0f11c4cde38db78912129592fc/transformed/support-v4-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/7ebf1e2514665f08eda0c5f8d8b0e57a/transformed/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/7ebf1e2514665f08eda0c5f8d8b0e57a/transformed/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/aa8a31a03064c770d604e83ed633ff42/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/aa8a31a03064c770d604e83ed633ff42/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/4c0e8ad028b5773a19bff4eeca42810c/transformed/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/4c0e8ad028b5773a19bff4eeca42810c/transformed/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/281c3df159328e1a68e66ee9774b191c/transformed/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/281c3df159328e1a68e66ee9774b191c/transformed/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/7ed27c75a7f937da2357cafa171983b8/transformed/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/7ed27c75a7f937da2357cafa171983b8/transformed/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/fc0e6aec22d9cdc4651f6d73625f0cde/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/fc0e6aec22d9cdc4651f6d73625f0cde/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/07b6167ccd757288088a33efb7cb9b47/transformed/transition-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/07b6167ccd757288088a33efb7cb9b47/transformed/transition-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/5fd2bff5aaf37994f28af14edc5a94ba/transformed/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/5fd2bff5aaf37994f28af14edc5a94ba/transformed/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/8e66fc98c1bdb40f46fc7da6bf595dd5/transformed/support-compat-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/8e66fc98c1bdb40f46fc7da6bf595dd5/transformed/support-compat-27.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/bf1480b5d366f075a9d16be9a096a386/transformed/play-services-location-license-11.8.0/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/bf1480b5d366f075a9d16be9a096a386/transformed/play-services-location-license-11.8.0/AndroidManifest.xml:4:5-43
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/dc9dbead4befbc33e03049c0514c9629/transformed/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/dc9dbead4befbc33e03049c0514c9629/transformed/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/ec5d7042ac7aa69590ef02eaa7fd1fad/transformed/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/ec5d7042ac7aa69590ef02eaa7fd1fad/transformed/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/00adcb9e911f3b7816d1aedffaa8b3c9/transformed/play-services-base-license-11.8.0/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/00adcb9e911f3b7816d1aedffaa8b3c9/transformed/play-services-base-license-11.8.0/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/ccdc82039bad76bb3544a21ddf3ef76e/transformed/play-services-basement-license-11.8.0/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/ccdc82039bad76bb3544a21ddf3ef76e/transformed/play-services-basement-license-11.8.0/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/7da39268de81cb096afe1d95ab5e5a4a/transformed/play-services-tasks-license-11.8.0/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/7da39268de81cb096afe1d95ab5e5a4a/transformed/play-services-tasks-license-11.8.0/AndroidManifest.xml:4:5-43
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/4f1d718b6974a11b3f3524a3542022fa/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/4f1d718b6974a11b3f3524a3542022fa/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/453125fba0665b51aad86306b8bea045/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/453125fba0665b51aad86306b8bea045/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/a9ecd8064b6d1706a88ab26035fce108/transformed/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/a9ecd8064b6d1706a88ab26035fce108/transformed/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/98373bac66190a8416d7aa87b8148dc1/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/98373bac66190a8416d7aa87b8148dc1/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/aea90e587cc1951ba83d0f0de5a477bf/transformed/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/nmahabub/.gradle/caches/transforms-3/aea90e587cc1951ba83d0f0de5a477bf/transformed/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/nmahabub/.gradle/caches/transforms-3/32e35b90ffb21c87b1a741f8744f03c5/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/nmahabub/.gradle/caches/transforms-3/32e35b90ffb21c87b1a741f8744f03c5/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/nmahabub/.gradle/caches/transforms-3/863bc2c23c752976550cfca8bfa28e3a/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/nmahabub/.gradle/caches/transforms-3/863bc2c23c752976550cfca8bfa28e3a/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nmahabub/.gradle/caches/transforms-3/69d01c464685aa9ab1456b88fbf1f8fd/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nmahabub/.gradle/caches/transforms-3/69d01c464685aa9ab1456b88fbf1f8fd/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fec8637653e897625bbd59deda1dcc37/transformed/play-services-location-11.8.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fec8637653e897625bbd59deda1dcc37/transformed/play-services-location-11.8.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/f2e47be107f297702b3dcefb553ab87c/transformed/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/f2e47be107f297702b3dcefb553ab87c/transformed/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/9e842fd4b9afc7699697c1c74f359056/transformed/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/9e842fd4b9afc7699697c1c74f359056/transformed/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/f90a4658def8672b1cc265d0e3dca43e/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/f90a4658def8672b1cc265d0e3dca43e/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/e09ecee9ec1fdb929d0651b1cd7e6ede/transformed/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/e09ecee9ec1fdb929d0651b1cd7e6ede/transformed/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/a71512bf028b850e66c1a5312e7c77fa/transformed/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/a71512bf028b850e66c1a5312e7c77fa/transformed/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/d1bb72988b391effbe6dadf56be23b6d/transformed/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/d1bb72988b391effbe6dadf56be23b6d/transformed/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/e9f8e6d543f1b861470979489f8f2c39/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/e9f8e6d543f1b861470979489f8f2c39/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/b5adeee6e17a4086257a8916045e4c79/transformed/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/b5adeee6e17a4086257a8916045e4c79/transformed/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/9cab3b3a9ac9a9aaf8f719136e09547a/transformed/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/9cab3b3a9ac9a9aaf8f719136e09547a/transformed/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/8a89397061a637f23bebe90ba1eceb67/transformed/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/nmahabub/.gradle/caches/transforms-3/8a89397061a637f23bebe90ba1eceb67/transformed/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/nmahabub/.gradle/caches/transforms-3/17e89b3bc834f9283da341462d57e732/transformed/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/nmahabub/.gradle/caches/transforms-3/17e89b3bc834f9283da341462d57e732/transformed/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/nmahabub/.gradle/caches/transforms-3/86e24118f2c0dc6fe27431f44f604589/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/nmahabub/.gradle/caches/transforms-3/86e24118f2c0dc6fe27431f44f604589/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/467661c06907fed12871ca0de035e335/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/467661c06907fed12871ca0de035e335/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/69e4b9d1c47ead8af498bcc5493683db/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/69e4b9d1c47ead8af498bcc5493683db/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/6d3c9f73d9c328f4fd9e4b20f1b43c7c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/6d3c9f73d9c328f4fd9e4b20f1b43c7c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /Users/nmahabub/.gradle/caches/transforms-3/74e3285d5da5a0b74c70ce45c50f85a4/transformed/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /Users/nmahabub/.gradle/caches/transforms-3/74e3285d5da5a0b74c70ce45c50f85a4/transformed/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/nmahabub/.gradle/caches/transforms-3/5bf8c9f1f5f33f77bacf50fa4b1cd9e1/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/nmahabub/.gradle/caches/transforms-3/5bf8c9f1f5f33f77bacf50fa4b1cd9e1/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/nmahabub/.gradle/caches/transforms-3/b76b0e9818fd5dbed6005d283f6b0769/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/nmahabub/.gradle/caches/transforms-3/b76b0e9818fd5dbed6005d283f6b0769/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/d0987e2753d6c8d20e26eeff4a14908f/transformed/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/d0987e2753d6c8d20e26eeff4a14908f/transformed/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/96c05e2dfeff5974223e47821ac320f6/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/96c05e2dfeff5974223e47821ac320f6/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/nmahabub/.gradle/caches/transforms-3/ba774c66f7967c83c5118459556c2b6f/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/nmahabub/.gradle/caches/transforms-3/ba774c66f7967c83c5118459556c2b6f/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/bcd2a7d09ec31d8a39f38b57f76b37c0/transformed/play-services-basement-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/bcd2a7d09ec31d8a39f38b57f76b37c0/transformed/play-services-basement-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/06b565578f5819353d43894967ef85e6/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/06b565578f5819353d43894967ef85e6/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/c8a6dcb62ac419f81f52ad63a7aa4508/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/c8a6dcb62ac419f81f52ad63a7aa4508/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nmahabub/.gradle/caches/transforms-3/2b07cbaaaed0e8c27ae427e70e7ccc1c/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nmahabub/.gradle/caches/transforms-3/2b07cbaaaed0e8c27ae427e70e7ccc1c/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/c469d9a0d137700d0470b6907cb6c359/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/c469d9a0d137700d0470b6907cb6c359/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/386e0eef9ab7655a89ccdade5a546b59/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/386e0eef9ab7655a89ccdade5a546b59/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/2f36349a6e5086c20907cebb58e05dd7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/2f36349a6e5086c20907cebb58e05dd7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/nmahabub/.gradle/caches/transforms-3/6bc396282adc464c4626541df2072224/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/nmahabub/.gradle/caches/transforms-3/6bc396282adc464c4626541df2072224/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/fb21169efdf22c9c6a0bbcb9438ad000/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/fb21169efdf22c9c6a0bbcb9438ad000/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/255e4a5268d84a80a95daea581384208/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/255e4a5268d84a80a95daea581384208/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/11f1ead1197277fada5ce9bf4d3c6589/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/11f1ead1197277fada5ce9bf4d3c6589/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/0f4f331365f84b84e484ea2bfc64553d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/0f4f331365f84b84e484ea2bfc64553d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/7cad75e461b5e87f874f274d98b89ad7/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/7cad75e461b5e87f874f274d98b89ad7/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/94e17d3be28472c7ec6561c1468f2a0b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/94e17d3be28472c7ec6561c1468f2a0b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/0894323570e4e26c1c6f5ddf25f0ccb4/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/0894323570e4e26c1c6f5ddf25f0ccb4/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] /Users/nmahabub/.gradle/caches/transforms-3/a20965d6667ab312c194c141c9f4a6c1/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/nmahabub/.gradle/caches/transforms-3/a20965d6667ab312c194c141c9f4a6c1/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/f0e94994639b6dbfb53339043fa38a62/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/f0e94994639b6dbfb53339043fa38a62/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/nmahabub/.gradle/caches/transforms-3/cae50926a7a69575550b49ee40ea6296/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/nmahabub/.gradle/caches/transforms-3/cae50926a7a69575550b49ee40ea6296/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/nmahabub/.gradle/caches/transforms-3/3cc73921346e5ddea0bc3b218a9e5c0b/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/nmahabub/.gradle/caches/transforms-3/3cc73921346e5ddea0bc3b218a9e5c0b/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/ccb817b63bcff85c69998ea87b5f0b9a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/ccb817b63bcff85c69998ea87b5f0b9a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/5d19a03bd7b5c4cb78f550ca0e5a75d8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/5d19a03bd7b5c4cb78f550ca0e5a75d8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/aeb5d6dfc2554f814489e72231517c54/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/aeb5d6dfc2554f814489e72231517c54/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/540ce26f8f9c9058402f81155af13a22/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/540ce26f8f9c9058402f81155af13a22/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nmahabub/.gradle/caches/transforms-3/eea43794a4c7e128144169e0b0b566f0/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nmahabub/.gradle/caches/transforms-3/eea43794a4c7e128144169e0b0b566f0/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nmahabub/.gradle/caches/transforms-3/79e79e1043656e1df328df3e012ced83/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/nmahabub/.gradle/caches/transforms-3/79e79e1043656e1df328df3e012ced83/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nmahabub/.gradle/caches/transforms-3/38281e01eebe467075f665f15466236e/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/nmahabub/.gradle/caches/transforms-3/38281e01eebe467075f665f15466236e/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/cd4716f70cf3ded81c3fc4eb973c6cf6/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/nmahabub/.gradle/caches/transforms-3/cd4716f70cf3ded81c3fc4eb973c6cf6/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/dc73b95143c13022237b558419043dfc/transformed/jetified-play-services-location-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/dc73b95143c13022237b558419043dfc/transformed/jetified-play-services-location-license-11.8.0/AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/e69d249976b5a7a5cb6c3bc5b1553939/transformed/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/e69d249976b5a7a5cb6c3bc5b1553939/transformed/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/587dcd31c8e334319d89dab534b822b6/transformed/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/587dcd31c8e334319d89dab534b822b6/transformed/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/5d02aafc4c07c5889e93428dfd5d7ef2/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/5d02aafc4c07c5889e93428dfd5d7ef2/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/5338c6c8c1491f6393f7077dcb5f255c/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/nmahabub/.gradle/caches/transforms-3/5338c6c8c1491f6393f7077dcb5f255c/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
 INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -316,17 +468,123 @@ INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
 		ADDED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/nmahabub/Desktop/SafeNaari/app/src/main/AndroidManifest.xml
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:23:9-26:75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:33:9-46:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:33:9-46:19
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/df7539ada2283e79378f206660874dfd/transformed/play-services-base-11.8.0/AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:23:9-25:69
+		ADDED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/nmahabub/.gradle/caches/transforms-3/fc3f1a17fb502869015d9050dd22816d/transformed/play-services-basement-11.8.0/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.firebase:firebase-database:19.6.0] /Users/nmahabub/.gradle/caches/transforms-3/82d6a91a5ae8fda16045d886b42ffed8/transformed/jetified-firebase-database-19.6.0/AndroidManifest.xml:33:17-109
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.2] /Users/nmahabub/.gradle/caches/transforms-3/b4d05252cc6bddfd80c62d53de7df864/transformed/firebase-auth-20.0.2/AndroidManifest.xml:78:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar
+ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/nmahabub/.gradle/caches/transforms-3/e61a69ae619c7cd12d0aa3b7ecd74dc4/transformed/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/d0987e2753d6c8d20e26eeff4a14908f/transformed/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/d0987e2753d6c8d20e26eeff4a14908f/transformed/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/d0987e2753d6c8d20e26eeff4a14908f/transformed/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/d0987e2753d6c8d20e26eeff4a14908f/transformed/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/bcd2a7d09ec31d8a39f38b57f76b37c0/transformed/play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/bcd2a7d09ec31d8a39f38b57f76b37c0/transformed/play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.1.0] /Users/nmahabub/.gradle/caches/transforms-3/bcd2a7d09ec31d8a39f38b57f76b37c0/transformed/play-services-basement-17.1.0/AndroidManifest.xml:24:13-58

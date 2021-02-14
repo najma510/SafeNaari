@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.example.SafeNaari.R;
 
 
 public class CorruptionFragment extends Fragment {
@@ -26,7 +27,7 @@ public class CorruptionFragment extends Fragment {
                 Intent intent = null, chooser = null;
                 intent = new Intent(Intent.ACTION_SEND);
                 intent.setData(Uri.parse("mailto:"));
-                String[] to = {"najma@gmail.com"};
+                String[] to = {"ishumehta99@gmail.com"};
                 intent.putExtra(Intent.EXTRA_EMAIL, to);
                 intent.putExtra(Intent.EXTRA_SUBJECT, "Regarding Corruption");
                 intent.setType("message/rfc822");

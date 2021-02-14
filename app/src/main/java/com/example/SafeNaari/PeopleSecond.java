@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.example.SafeNaari.R;
+import com.example.SafeNaari.SessionManager;
 
 import java.util.HashMap;
 
@@ -24,6 +26,7 @@ public class PeopleSecond extends AppCompatActivity {
     ImageButton edit;
 
 
+    // Session Manager Class
     SessionManager session;
 
 
@@ -36,15 +39,22 @@ public class PeopleSecond extends AppCompatActivity {
 
         Toolbar tb = (Toolbar) findViewById(R.id.toolbar1);
         backButton = (ImageButton) findViewById(R.id.back);
+        // title = (TextView) findViewById(R.id.toolbar_title);
+
+        //  title.setText(R.string.welcome);
         backButton.setVisibility(View.VISIBLE);
         backButton.setImageResource(R.drawable.ic_keyboard_arrow_left_24dp);
+//    notificationIcon.setImageResource(R.drawable.notification);
+//    notificationIcon.setVisibility(View.VISIBLE);
 
         setSupportActionBar(tb);
         getSupportActionBar().setDisplayShowTitleEnabled(true);
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(R.layout.title);
+        //  getSupportActionBar().setTitle("Help");
         TextView tv= (TextView) findViewById(R.id.ab);
         tv.setText(R.string.savedcontacts);
+        // Session Manager
         session = new SessionManager(getApplicationContext());
 
         // Email, Password input text

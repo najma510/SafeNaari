@@ -10,9 +10,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
-
-import com.example.example.SafeNaari.R;
-import com.example.example.SafeNaari.VoiceCallActivity;
+import com.example.SafeNaari.R;
+import com.example.SafeNaari.VoiceCallActivity;
 
 
 public class RecievedCall extends AppCompatActivity implements View.OnClickListener {

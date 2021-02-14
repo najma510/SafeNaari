@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.SafeNaari.R;
+
 import java.text.SimpleDateFormat;
 import java.util.TimeZone;
 

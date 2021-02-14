@@ -18,6 +18,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 
 public class People extends AppCompatActivity {
     EditText editText1, editText2, editText3;
@@ -37,6 +41,7 @@ public class People extends AppCompatActivity {
     // Button Logout
     Button btnNxt;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +54,7 @@ public class People extends AppCompatActivity {
 
 
         } else
+            // for alove L version we need to get permission at the door to get throught that location ...
             if (checkSelfPermission(Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED || checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED || checkSelfPermission(Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED) {  // checkSelfPermission is a method avail in 23 api ..without if condition of (SDK_INT < 23 ) you cant implement it..
 
                 requestPermissions(new String[]{Manifest.permission.READ_CONTACTS, Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.SEND_SMS}, getContact);
@@ -61,11 +67,19 @@ public class People extends AppCompatActivity {
 
         TextView tv = (TextView) findViewById(R.id.toolbar_title);
         tv.setText(R.string.contacts);
+        //session manager
+        // Session class instance
         session = new SessionManager(getApplicationContext());
 
         editText1 = (EditText) findViewById(R.id.editText);
         editText2 = (EditText) findViewById(R.id.editText2);
         editText2 = (EditText) findViewById(R.id.editText3);
+
+
+        //=======================================
+
+
+        //=======================================
 
 
         phoneBook1 = (ImageView) findViewById(R.id.iv_phonebook1);
@@ -75,6 +89,7 @@ public class People extends AppCompatActivity {
         phoneBook1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //  openContact1(101);
                 globalContact = 101;
 
                 flow = 1;
@@ -84,6 +99,7 @@ public class People extends AppCompatActivity {
                     openContact1();
 
                 } else
+                    // for alove L version we need to get permission at the door to get throught that location ...
                     if (checkSelfPermission(Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED || checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED || checkSelfPermission(Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED) {  // checkSelfPermission is a method avail in 23 api ..without if condition of (SDK_INT < 23 ) you cant implement it..
 
                         requestPermissions(new String[]{Manifest.permission.READ_CONTACTS, Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.SEND_SMS}, getContact);
@@ -99,6 +115,7 @@ public class People extends AppCompatActivity {
         phoneBook2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //  openContact1(102);
                 globalContact = 102;
 
                 flow = 1;
@@ -107,6 +124,7 @@ public class People extends AppCompatActivity {
                     openContact1();
 
                 } else
+                    // for alove L version we need to get permission at the door to get throught that location ...
                     if (checkSelfPermission(Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED || checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED || checkSelfPermission(Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED) {  // checkSelfPermission is a method avail in 23 api ..without if condition of (SDK_INT < 23 ) you cant implement it..
 
                         requestPermissions(new String[]{Manifest.permission.READ_CONTACTS, Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.SEND_SMS}, getContact);
@@ -123,6 +141,7 @@ public class People extends AppCompatActivity {
         phoneBook3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //  openContact1(103);
                 globalContact = 103;
                 flow = 1;
 
@@ -131,6 +150,7 @@ public class People extends AppCompatActivity {
                     openContact1();
 
                 } else
+                    // for alove L version we need to get permission at the door to get throught that location ...
                     if (checkSelfPermission(Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED || checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED || checkSelfPermission(Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED) {  // checkSelfPermission is a method avail in 23 api ..without if condition of (SDK_INT < 23 ) you cant implement it..
 
                         requestPermissions(new String[]{Manifest.permission.READ_CONTACTS, Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.SEND_SMS}, getContact);
@@ -143,6 +163,8 @@ public class People extends AppCompatActivity {
             }
         });
 
+
+        // location and message
         editText1 = (EditText) findViewById(R.id.editText);
         editText2 = (EditText) findViewById(R.id.editText2);
         editText3 = (EditText) findViewById(R.id.editText3);
@@ -154,6 +176,7 @@ public class People extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == (101) && resultCode == RESULT_OK && null != data) {
             Uri contactData = data.getData();
+            //String[] projection = { Phone.NUMBER, Phone.DISPLAY_NAME };
 
             Cursor c = managedQuery(contactData, null, null, null, null);
             if (c.moveToFirst()) {
@@ -171,11 +194,13 @@ public class People extends AppCompatActivity {
                     phones.moveToFirst();
                     String phn_no1 = phones.getString(phones.getColumnIndex("data1"));
 
+
                     editText1.setText(phn_no1);
                 }
             }
         } else if (requestCode == (102) && resultCode == RESULT_OK && null != data) {
             Uri contactData = data.getData();
+            //String[] projection = { Phone.NUMBER, Phone.DISPLAY_NAME };
 
             Cursor c = managedQuery(contactData, null, null, null, null);
             if (c.moveToFirst()) {
@@ -191,16 +216,18 @@ public class People extends AppCompatActivity {
                             ContactsContract.CommonDataKinds.Phone.CONTACT_ID + " = " + id,
                             null, null);
                     phones.moveToFirst();
+                    //String phn_no1 = phones.getString(phones.getColumnIndex("data1"));
                     String phn_no2 = phones.getString(phones.getColumnIndex("data1"));
 
                     editText2.setText(phn_no2);
                 }
             }
-        }
+        } else //(requestCode == (101) && resultCode == RESULT_OK && null != data)
         {
             try {
 
                 Uri contactData = data.getData();
+                //String[] projection = { Phone.NUMBER, Phone.DISPLAY_NAME };
 
                 Cursor c = managedQuery(contactData, null, null, null, null);
                 if (c.moveToFirst()) {
@@ -226,7 +253,7 @@ public class People extends AppCompatActivity {
 
             }
 
-        }
+        } //end of else
 
     }
 
@@ -242,6 +269,7 @@ public class People extends AppCompatActivity {
             saveContactData();
 
         } else
+            // for alove L version we need to get permission at the door to get throught that location ...
             if (checkSelfPermission(Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED || checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED || checkSelfPermission(Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED) {  // checkSelfPermission is a method avail in 23 api ..without if condition of (SDK_INT < 23 ) you cant implement it..
 
                 requestPermissions(new String[]{Manifest.permission.READ_CONTACTS, Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.SEND_SMS}, getContact);
@@ -262,6 +290,7 @@ public class People extends AppCompatActivity {
 
 
     }
+    //===================open contact
 
     public void openContact1() {
         Intent intent = new Intent(Intent.ACTION_PICK);
@@ -271,6 +300,7 @@ public class People extends AppCompatActivity {
         }
     }
 
+// permission ===================================================
 
 
     @Override
@@ -300,14 +330,16 @@ public class People extends AppCompatActivity {
         String cn1 = editText1.getText().toString();
         String cn2 = editText2.getText().toString();
         String cn3 = editText3.getText().toString();
-
+        // Check if username, password is filled
         if (cn1.trim().length() > 0 && cn2.trim().length() > 0 && cn3.trim().length() > 0) {
+            //       session.createLoginSession();
             session.createContactSession(cn1, cn2, cn3);
             Intent i = new Intent(getApplicationContext(), PeopleSecond.class);
             startActivity(i);
             Toast.makeText(this, "Contacts Saved Successfully", Toast.LENGTH_LONG).show();
             finish();
         } else {
+            // username / password doesn't match
             Toast.makeText(getApplicationContext(), "Please Add all 3 Contacts", Toast.LENGTH_LONG).show();
 
         }
